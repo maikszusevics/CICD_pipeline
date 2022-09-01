@@ -1,5 +1,4 @@
 # CICD_pipeline
-[mergetest]2
 The CI/CD pipeline is essentially automation: pushing code changes, automated testing, and automated deployment to the next level of development/release.
 
 ![image](https://user-images.githubusercontent.com/110176257/187883095-68ed4c52-f177-48cf-be78-6b31400f2eca.png)
