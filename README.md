@@ -3,7 +3,9 @@
 The CI/CD pipeline is essentially automation: pushing code changes, automated testing, and automated deployment to the next level of development/release.
 
 ![image](https://user-images.githubusercontent.com/110176257/187883095-68ed4c52-f177-48cf-be78-6b31400f2eca.png)
-
+##### Node: A machine which is part of the Jenkins environment and capable of executing Pipelines or jobs. Both the Controller and Agents are considered to be Nodes.
+##### Master: The central, coordinating process which stores configuration, loads plugins, and renders the various user interfaces for Jenkins.
+##### Agnet: is typically a machine, or container, which connects to a Jenkins controller and executes tasks when directed by the controller.
 
 - Localhost changes --> push to github --> CICD pipeline automates tests --> tests pass --> deployed
 
@@ -28,6 +30,9 @@ This goes a step further than continuous delivery; every development change that
 
 
 
+Goal:
+
+Create jobs in jenkins which will automate the process of copying repo code to an EC2 instance and provisioning all dependencies including DB_HOST variable, and then starting the app itself.
 
 
 
@@ -46,4 +51,5 @@ Steps:
 - 4th job launch the app, launched if 3rd was success
 - pm2 kill all - Create 5th job to create db host variable
 - npm start
+
 
