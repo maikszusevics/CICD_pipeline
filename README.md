@@ -32,8 +32,8 @@ This goes a step further than continuous delivery; every development change that
 
 ## Goal:
 
-#### Create jobs in jenkins which will automate the process of copying repo code to an EC2 instance and provisioning all dependencies including DB_HOST variable, and then starting the app itself.
-
+#### Create jobs in jenkins which will automate the process of jenkins SSH into EC2 and copying repo code to the instance and provisioning all dependencies including DB_HOST variable, and then starting the app itself.
+D
 
 
 Steps:
@@ -51,5 +51,6 @@ Steps:
 - 4th job launch the app, launched if 3rd was success
 - pm2 kill all - Create 5th job to create db host variable
 - npm start
+
 
 
