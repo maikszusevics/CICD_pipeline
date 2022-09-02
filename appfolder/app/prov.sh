@@ -9,6 +9,6 @@ sudo systemctl restart nginx
 sudo apt-get update
 sudo apt-get upgrade -y
 export DB_HOST=mongodb://34.253.184.253:27017/posts
-npm install express -y
-npm install mongoose -y
+npm install express
+npm install mongoose
 npm install
