@@ -29,6 +29,7 @@ This goes a step further than continuous delivery; every development change that
 ![image](https://user-images.githubusercontent.com/110176257/187890739-3887589c-7bd4-44e1-ac6c-3d3ba2d2cab7.png)
 
 
+
 ## Goal:
 
 #### Create jobs in jenkins which will automate the process of jenkins SSH into EC2 and copying repo code to the instance and provisioning all dependencies including DB_HOST variable, and then starting the app itself.
