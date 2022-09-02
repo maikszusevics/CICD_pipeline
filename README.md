@@ -25,3 +25,25 @@ Continuous delivery is an extension of CI which aims to deliver these integrated
 This goes a step further than continuous delivery; every development change that passes integration tests will be released to customers. There is no manual deploy button to click unlike with only continuous delivery.
 
 ![image](https://user-images.githubusercontent.com/110176257/187890739-3887589c-7bd4-44e1-ac6c-3d3ba2d2cab7.png)
+
+
+
+
+
+
+Steps:
+
+- Create ec2
+- create security group
+- allow jenkins ip to ssh in 
+- allow any rules required 
+- create 3rd job in jenkins 
+- get code from main branch 
+- copy (scp) to new ec2
+- run script to install dependencies 
+- the 3rd job must only be triggered if the second job was successful
+- first iteration run npm install and npm start manually 
+- 4th job launch the app, launched if 3rd was success
+- pm2 kill all - Create 5th job to create db host variable
+- npm start
+
