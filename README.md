@@ -25,3 +25,5 @@ Continuous delivery is an extension of CI which aims to deliver these integrated
 This goes a step further than continuous delivery; every development change that passes integration tests will be released to customers. There is no manual deploy button to click unlike with only continuous delivery.
 
 ![image](https://user-images.githubusercontent.com/110176257/187890739-3887589c-7bd4-44e1-ac6c-3d3ba2d2cab7.png)
+
+
