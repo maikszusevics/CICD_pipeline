@@ -54,3 +54,5 @@ Steps:
 
 
 
+- Command to ssh without "yes" confirmation:
+```ssh -A -o "StrictHostKeyChecking=no" ubuntu@deploy_public_ip <<EOF```
