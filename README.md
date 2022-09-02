@@ -30,9 +30,9 @@ This goes a step further than continuous delivery; every development change that
 
 
 
-Goal:
+## Goal:
 
-Create jobs in jenkins which will automate the process of copying repo code to an EC2 instance and provisioning all dependencies including DB_HOST variable, and then starting the app itself.
+### Create jobs in jenkins which will automate the process of copying repo code to an EC2 instance and provisioning all dependencies including DB_HOST variable, and then starting the app itself.
 
 
 
