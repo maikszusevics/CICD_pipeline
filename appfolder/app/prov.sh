@@ -9,7 +9,6 @@ sudo systemctl restart nginx
 sudo apt-get update
 sudo apt-get upgrade -y
            
-npm install pm2 -g -y
 npm install express -y
-npm install mongoose -y
+
  
